@@ -15,7 +15,7 @@ $$
 
 ## Resenje
 
-''' cs
+'''cs
 
 using System;
 
@@ -46,13 +46,15 @@ class Program
         Console.ReadKey();
     }
 }
+
 '''
 
 ### Test primeri
 
 prvi test primeri:
 
-''' text
+
+'''text
 Program za izracunavanje povrsine kvadrata.
 Formula: P = 1/2 * d^2
 Unesite dijagonalu kvadrata d: 4.28
@@ -62,11 +64,14 @@ Pritisnite bilo koji taster za izlaz.
 C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 4392) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
+
 '''
+
+
 
 Drugi test primeri:
 
-''' text
+'''text
 Program za izracunavanje povrsine kvadrata.
 Formula: P = 1/2 * d^2
 Unesite dijagonalu kvadrata d: 12
@@ -76,6 +81,7 @@ Pritisnite bilo koji taster za izlaz.
 C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 736) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
+
 '''
 
 

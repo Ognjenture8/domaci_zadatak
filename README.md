@@ -10,4 +10,4 @@ $$
 
 ### Algoritamska sema
 
-![Algoritamsko resenje zadatka](zadatak.fprg)
+![Algoritamsko resenje zadatka](zadatak.png)

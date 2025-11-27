@@ -4,6 +4,7 @@
 
 Program koji na osnovu unete duzine **dijagonale** kvadrata d izracunava **Povrsinu** kvadrata P
 
+## formula
 $$
 \frac{1}{2} d^2
 $$
@@ -15,8 +16,6 @@ $$
 ## Resenje
 
 ''' cs
-
-
 using System;
 
 class Program

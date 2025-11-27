@@ -22,17 +22,27 @@ class Program
 {
     static void Main()
     {
-        // Unos dijagonale kvadrata
+        Console.WriteLine("Program za izračunavanje površine kvadrata.");
+        Console.WriteLine("Formula: P = 1/2 * d^2");
+        
+        // Unos dijagonale
         Console.Write("Unesite dijagonalu kvadrata d: ");
-        double d = double.Parse(Console.ReadLine());
+        double d;
+        
+        // Provera da li je unos validan
+        if (double.TryParse(Console.ReadLine(), out d) && d > 0)
+        {
+            // Računanje površine
+            double P = 0.5 * d * d;
+            Console.WriteLine($"Površina kvadrata sa dijagonalom {d} je: {P}");
+        }
+        else
+        {
+            Console.WriteLine("Unos nije validan! Dijagonala mora biti pozitivan broj.");
+        }
 
-        // Racunanje povrsine kvadrata
-        double P = 0.5 * d * d;
-
-        // Ispis rezultata
-        Console.WriteLine("Površina kvadrata iznosi: " + P);
-
-        Console.ReadLine();
+        Console.WriteLine("Pritisnite bilo koji taster za izlaz.");
+        Console.ReadKey();
     }
 }
 '''

@@ -26,14 +26,14 @@ class Program
         Console.WriteLine("Program za izračunavanje površine kvadrata.");
         Console.WriteLine("Formula: P = 1/2 * d^2");
         
-        // Unos dijagonale
+       
         Console.Write("Unesite dijagonalu kvadrata d: ");
         double d;
         
-        // Provera da li je unos validan
+        
         if (double.TryParse(Console.ReadLine(), out d) && d > 0)
         {
-            // Računanje površine
+           
             double P = 0.5 * d * d;
             Console.WriteLine($"Površina kvadrata sa dijagonalom {d} je: {P}");
         }
@@ -53,11 +53,13 @@ class Program
 prvi test primeri:
 
 ''' text
-Unesite dijagonalu kvadrata d: 12
-Povrsina kvadrata iznosi: 72
+Program za izracunavanje povrsine kvadrata.
+Formula: P = 1/2 * d^2
+Unesite dijagonalu kvadrata d: 4.28
+Povrsina kvadrata sa dijagonalom 4.28 je: 9.1592
+Pritisnite bilo koji taster za izlaz.
 
-
-C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 25436) exited with code 0 (0x0).
+C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 4392) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 '''
@@ -65,18 +67,21 @@ Press any key to close this window . . .
 Drugi test primeri:
 
 ''' text
+Program za izracunavanje povrsine kvadrata.
+Formula: P = 1/2 * d^2
+Unesite dijagonalu kvadrata d: 12
+Povrsina kvadrata sa dijagonalom 12 je: 72
+Pritisnite bilo koji taster za izlaz.
 
-Unesite dijagonalu kvadrata d: 4.28
-Povrsina kvadrata iznosi: 9.1592
-
-
-C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 13568) exited with code 0 (0x0).
+C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 736) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
+'''
+
 
 ### Objekti
 
 | Redni broj | Naziv promenljive | Tip promeljive |
-| _ _ _ _ _  | _ _ _ _ _ _ _ _ _ | _ _ _ _ _ _ _  |
+|------------| ----------------- | -------------  |
 | 1.         | 'd'               | 'double'       |
 | 2.         | 'P'               | 'double'       |

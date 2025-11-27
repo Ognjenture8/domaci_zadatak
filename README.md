@@ -51,34 +51,29 @@ class Program
 
 ### Test primeri
 
-prvi test primeri:
+Test primer 1:
 
 
 '''text
-Program za izracunavanje povrsine kvadrata.
-Formula: P = 1/2 * d^2
-Unesite dijagonalu kvadrata d: 4.28
-Povrsina kvadrata sa dijagonalom 4.28 je: 9.1592
-Pritisnite bilo koji taster za izlaz.
 
-C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 4392) exited with code 0 (0x0).
+Unesite dijagonalu kvadrata d: 12
+Povrsina kvadrata iznosi: 72
+
+
+C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 19352) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
-
 '''
 
 
-
-Drugi test primeri:
+Test primer 2:
 
 '''text
-Program za izracunavanje povrsine kvadrata.
-Formula: P = 1/2 * d^2
-Unesite dijagonalu kvadrata d: 12
-Povrsina kvadrata sa dijagonalom 12 je: 72
-Pritisnite bilo koji taster za izlaz.
+Unesite dijagonalu kvadrata d: 4.28
+Povrsina kvadrata iznosi: 9.1592
 
-C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 736) exited with code 0 (0x0).
+
+C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 22040) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 

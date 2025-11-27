@@ -67,6 +67,6 @@ Press any key to close this window . . .
 ### Objekti
 
 | Redni broj | Naziv promenljive | Tip promeljive |
-| _ _ _ _ _ _| _ _ _ _ _ _ _ _ _ | _ _ _ _ _ _ _ _|
+| _ _ _ _ _  | _ _ _ _ _ _ _ _ _ | _ _ _ _ _ _ _  |
 | 1.         | 'd'               | 'double'       |
 | 2.         | 'P'               | 'double'       |

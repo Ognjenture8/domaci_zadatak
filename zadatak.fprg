@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ognje"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-27 04:04:44 PM"/>
+        <attribute name="created" value="b2duamU7IERFU0tUT1AtQklKVVNPSTsgMjAyNS0xMS0yNzsgMDM6NTY6NTIgUE07IDMwMjg="/>
+        <attribute name="edited" value="b2duamU7IERFU0tUT1AtQklKVVNPSTsgMjAyNS0xMS0yNzsgMDQ6MDQ6NDQgUE07IDMwMjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, P" type="Real" array="False" size=""/>
+            <input variable="d"/>
+            <output expression="&quot;Unesite duzinu dijagonale d:&quot;"/>
+            <assign variable="P" expression="0.5 * d * d"/>
+            <output expression="&quot;Povrsina kvadrata je: &quot; + P"/>
+        </body>
+    </function>
+</flowgorithm>

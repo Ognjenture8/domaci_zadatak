@@ -15,7 +15,7 @@ $$
 
 ## Resenje
 
-'''cs
+``` cs
 
 using System;
 
@@ -47,14 +47,14 @@ class Program
     }
 }
 
-'''
+```
 
 ### Test primeri
 
 Test primer 1:
 
 
-'''text
+``` text
 
 Unesite dijagonalu kvadrata d: 12
 Povrsina kvadrata iznosi: 72
@@ -63,12 +63,12 @@ Povrsina kvadrata iznosi: 72
 C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (process 19352) exited with code 0 (0x0).
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
-'''
+```
 
 
 Test primer 2:
 
-'''text
+``` text
 Unesite dijagonalu kvadrata d: 4.28
 Povrsina kvadrata iznosi: 9.1592
 
@@ -77,7 +77,7 @@ C:\Users\ognje\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe (p
 To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
 Press any key to close this window . . .
 
-'''
+```
 
 
 ### Objekti

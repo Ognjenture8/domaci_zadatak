@@ -11,7 +11,7 @@ $$
 
 ### Algoritamska sema
 
-![Algoritamsko resenje zadatka](zadatak.png)
+![Algoritamsko resenje zadatka](zadatak3.png)
 
 ## Resenje
 

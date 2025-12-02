@@ -84,5 +84,5 @@ Press any key to close this window . . .
 
 | Redni broj | Naziv promenljive | Tip promeljive |
 |------------| ----------------- | -------------  |
-| 1.         | 'd'               | 'double'       |
-| 2.         | 'P'               | 'double'       |
+| 1.         | `d`               | `double`       |
+| 2.         | `P`               | `double`       |

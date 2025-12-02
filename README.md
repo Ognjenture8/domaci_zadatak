@@ -6,7 +6,7 @@ Program koji na osnovu unete duzine **dijagonale** kvadrata d izracunava **Povrs
 
 ## formula
 $$
-\frac{1}{2} d^2
+P=\frac{1}{2} d^2
 $$
 
 ### Algoritamska sema
